@@ -1,0 +1,24 @@
+{
+  "name": "rangorapido-backend",
+  "version": "1.0.0",
+  "description": "Backend da plataforma de delivery RangoRápido",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["delivery", "comida"],
+  "author": "Érico e João",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "jwt-simple": "^0.5.6",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
