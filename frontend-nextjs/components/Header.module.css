@@ -1,0 +1,81 @@
+.header {
+  background: linear-gradient(135deg, #ff6b35 0%, #ff8c42 100%);
+  color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.headerRight {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: #ff6b35;
+  color: white;
+}
+
+.primary:hover {
+  background-color: #e55a28;
+}
+
+.secondary {
+  background-color: white;
+  color: #ff6b35;
+  border: 2px solid #ff6b35;
+}
+
+.secondary:hover {
+  background-color: #fff5f0;
+}
+
+.danger {
+  background-color: #ff4444;
+  color: white;
+}
+
+.danger:hover {
+  background-color: #cc0000;
+}
+
+@media (max-width: 768px) {
+  .headerRight {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

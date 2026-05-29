@@ -1,0 +1,6 @@
+{
+  "extends": "next/base",
+  "rules": {
+    "react/no-unescaped-entities": "off"
+  }
+}
